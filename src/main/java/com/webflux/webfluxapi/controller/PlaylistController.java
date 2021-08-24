@@ -1,4 +1,4 @@
-package com.webflux.webfluxapi.comtroller;
+package com.webflux.webfluxapi.controller;
 
 import com.webflux.webfluxapi.document.Playlist;
 import com.webflux.webfluxapi.service.PlaylistService;
@@ -8,7 +8,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-public class PlaylistComtroller {
+public class PlaylistController {
 
     @Autowired
     PlaylistService playlistService;
